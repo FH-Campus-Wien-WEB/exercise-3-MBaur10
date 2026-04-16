@@ -7,7 +7,7 @@ const app = express();
 
 // Parse urlencoded bodies
 app.use(bodyParser.json()); 
-
+ 
 // Serve static content in directory 'files'
 app.use(express.static(path.join(__dirname, 'files')));
 
@@ -15,6 +15,17 @@ app.use(express.static(path.join(__dirname, 'files')));
    This endpoint returns a sorted array of all the genres of the movies
    that are currently in the movie model.
 */
+app.get('/genres', (req, res) => {
+  const allGenres = new Set();
+  Object.values(movieModel).forEach(movie => {
+    movie.Genres.forEach(genre =>{
+      allGenres.add(genre.trim());
+    });
+  });
+  const genresArray = Array.from(allGenres).sort();
+  res.send(genresArray);
+})
+
 
 /* Task 1.4: Extend the GET /movies endpoint:
    When a query parameter for a specific genre is given, 

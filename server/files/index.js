@@ -70,7 +70,7 @@ function loadMovies(genre) {
 window.onload = function () {
   const xhr = new XMLHttpRequest();
   xhr.onload = function () {
-    const listElement = document.querySelector("nav>ul");
+    const listElement = document.querySelector("body");
 
     if (xhr.status === 200) {
       /* Task 1.3. Add the genre buttons to the listElement and 

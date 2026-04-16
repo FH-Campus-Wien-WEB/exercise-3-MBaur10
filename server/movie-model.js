@@ -1,20 +1,5 @@
 module.exports = {
-  tt0084787: {
-    imdbID: "tt0084787",
-    Title: "The Thing",
-    Released: "1982-06-25",
-    Runtime: 109,
-    Genres: ["Horror", "Mystery", "Sci-Fi"],
-    Directors: ["John Carpenter"],
-    Writers: ["Bill Lancaster", "John W. Campbell Jr."],
-    Actors: ["Kurt Russell", "Wilford Brimley", "Keith David"],
-    Plot: "A research team in Antarctica is hunted by a shape-shifting alien that assumes the appearance of its victims.",
-    Poster:
-      "https://m.media-amazon.com/images/M/MV5BNGViZWZmM2EtNGYzZi00ZDAyLTk3ODMtNzIyZTBjN2Y1NmM1XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg",
-    Metascore: 57,
-    imdbRating: 8.2,
-  },
-  tt0120737: {
+    tt0120737: {
     imdbID: "tt0120737",
     Title: "The Lord of the Rings: The Fellowship of the Ring",
     Released: "2001-12-19",
@@ -28,6 +13,105 @@ module.exports = {
       "https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_SX300.jpg",
     Metascore: 92,
     imdbRating: 8.8,
+  },
+  tt0892769: {
+    imdbID: "tt0892769",
+    Title: "How to Train Your Dragon",
+    Released: "2010-03-26",
+    Runtime: 98,
+    Genres: [
+      "Animation",
+      "Action",
+      "Adventure"
+    ],
+    Directors: [
+      "Dean DeBlois",
+      "Chris Sanders"
+    ],
+    Writers: [
+      "William Davies",
+      "Dean DeBlois",
+      "Chris Sanders"
+    ],
+    Actors: [
+      "Jay Baruchel",
+      "Gerard Butler",
+      "Christopher Mintz-Plasse"
+    ],
+    Plot: "A hapless young Viking who aspires to hunt dragons becomes the unlikely friend of a young dragon himself, and learns there may be more to the creatures than he assumed.",
+    Poster: "https://m.media-amazon.com/images/M/MV5BMjA5NDQyMjc2NF5BMl5BanBnXkFtZTcwMjg5ODcyMw@@._V1_SX300.jpg",
+    Metascore: 75,
+    imdbRating: 8.1
+  },
+  tt0119698: {
+    imdbID: "tt0119698",
+    Title: "Princess Mononoke",
+    Released: "1997-07-12",
+    Runtime: 133,
+    Genres: [
+      "Animation",
+      "Adventure",
+      "Fantasy"
+    ],
+    Directors: [
+      "Hayao Miyazaki"
+    ],
+    Writers: [
+      "Hayao Miyazaki"
+    ],
+    Actors: [
+      "Yôji Matsuda",
+      "Yuriko Ishida",
+      "Yûko Tanaka"
+    ],
+    Plot: "While seeking to cure himself of a curse, young warrior Ashitaka stumbles into a conflict between the people of Iron Town and Princess Mononoke, a girl raised by wolves, who will stop at nothing to prevent the destruction of her home.",
+    Poster: "https://tse2.mm.bing.net/th/id/OIP.IXsRXiOQLytlNifQuBYlSwHaLH?pid=Api",
+    Metascore: 78,
+    imdbRating: 8.3
+  },
+  tt0167260:
+  {
+    imdbID: "tt0167260",
+    Title: "The Lord of the Rings: The Return of the King",
+    Released: "2003-12-17",
+    Runtime: 201,
+    Genres: [
+      "Adventure",
+      "Drama",
+      "Fantasy"
+    ],
+    Directors: [
+      "Peter Jackson"
+    ],
+    Writers: [
+      "J.R.R. Tolkien",
+      "Fran Walsh",
+      "Philippa Boyens"
+    ],
+    Actors: [
+      "Elijah Wood",
+      "Viggo Mortensen",
+      "Ian McKellen"
+    ],
+    Plot: "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
+    Poster: "https://m.media-amazon.com/images/M/MV5BMTZkMjBjNWMtZGI5OC00MGU0LTk4ZTItODg2NWM3NTVmNWQ4XkEyXkFqcGc@._V1_SX300.jpg",
+    Metascore: 94,
+    imdbRating: 9.0
+  },
+tt0248808: {
+    imdbID: "tt0248808",
+    Title: "For the Birds",
+    Released: "2001-11-02",
+    Runtime: 3,
+    Genres: ["Animation", "Short", "Comedy"],
+    Directors: ["Ralph Eggleston"],
+    Writers: ["Ralph Eggleston"],
+    Actors: ["Ralph Eggleston"],
+    Plot: "A group of snooty birds roosting on a telephone wire get their just deserts when a goofy bird drops in.",
+    Poster:
+      "https://m.media-amazon.com/images/M/MV5BZjBhYzgyY2YtMTBhZS00NWIwLWIyYTgtMzhhYmFhZDNkMTQxXkEyXkFqcGdeQXVyNTE1NjY5Mg@@._V1_SX300.jpg",
+    Metascore: 0.1,
+    imdbRating: 8.0,
   },
   tt0085959: {
     imdbID: "tt0085959",
@@ -58,35 +142,5 @@ module.exports = {
       "https://m.media-amazon.com/images/M/MV5BZWIxNzM5YzQtY2FmMS00Yjc3LWI1ZjUtNGVjMjMzZTIxZTIxXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
     Metascore: 72,
     imdbRating: 8.1,
-  },
-  tt0124315: {
-    imdbID: "tt0124315",
-    Title: "The Cider House Rules",
-    Released: "2000-01-07",
-    Runtime: 126,
-    Genres: ["Drama", "Romance"],
-    Directors: ["Lasse Hallström"],
-    Writers: ["John Irving"],
-    Actors: ["Tobey Maguire", "Charlize Theron", "Michael Caine"],
-    Plot: "A compassionate young man, raised in an orphanage and trained to be a doctor there, decides to leave to see the world.",
-    Poster:
-      "https://m.media-amazon.com/images/M/MV5BNmY5YzA4OTQtOTQzZS00NDZmLTlhNzQtNzk5NTIyZWE2ZjVkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
-    Metascore: 75,
-    imdbRating: 7.4,
-  },
-  tt0248808: {
-    imdbID: "tt0248808",
-    Title: "For the Birds",
-    Released: "2001-11-02",
-    Runtime: 3,
-    Genres: ["Animation", "Short", "Comedy"],
-    Directors: ["Ralph Eggleston"],
-    Writers: ["Ralph Eggleston"],
-    Actors: ["Ralph Eggleston"],
-    Plot: "A group of snooty birds roosting on a telephone wire get their just deserts when a goofy bird drops in.",
-    Poster:
-      "https://m.media-amazon.com/images/M/MV5BZjBhYzgyY2YtMTBhZS00NWIwLWIyYTgtMzhhYmFhZDNkMTQxXkEyXkFqcGdeQXVyNTE1NjY5Mg@@._V1_SX300.jpg",
-    Metascore: 0.1,
-    imdbRating: 8.0,
   }
 };
