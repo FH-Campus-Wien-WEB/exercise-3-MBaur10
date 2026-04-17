@@ -1,5 +1,5 @@
 module.exports = {
-    tt0120737: {
+  tt0120737: {
     imdbID: "tt0120737",
     Title: "The Lord of the Rings: The Fellowship of the Ring",
     Released: "2001-12-19",
@@ -98,7 +98,7 @@ module.exports = {
     Metascore: 94,
     imdbRating: 9.0
   },
-tt0248808: {
+  tt0248808: {
     imdbID: "tt0248808",
     Title: "For the Birds",
     Released: "2001-11-02",
@@ -128,19 +128,88 @@ tt0248808: {
     Metascore: 72,
     imdbRating: 7.5,
   },
-  tt0107048: {
-    imdbID: "tt0107048",
-    Title: "Groundhog Day",
-    Released: "1993-02-12",
-    Runtime: 101,
-    Genres: ["Comedy", "Drama", "Fantasy"],
-    Directors: ["Harold Ramis"],
-    Writers: ["Danny Rubin", "Harold Ramis"],
-    Actors: ["Bill Murray", "Andie MacDowell", "Chris Elliott"],
-    Plot: "A narcissistic, self-centered weatherman finds himself in a time loop on Groundhog Day, and the day keeps repeating until he gets it right.",
-    Poster:
-      "https://m.media-amazon.com/images/M/MV5BZWIxNzM5YzQtY2FmMS00Yjc3LWI1ZjUtNGVjMjMzZTIxZTIxXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
-    Metascore: 72,
-    imdbRating: 8.1,
+  tt5613056: {
+    imdbID: "tt5613056",
+    Title: "Piper",
+    Released: "2016-06-07",
+    Runtime: 6,
+    Genres: ["Animation", "Short", "Family"],
+    Directors: ["Alan Barillaro"],
+    Writers: ["Alan Barillaro"],
+    Actors: ["Bui Quoc Huy Steve"],
+    Plot: "A hungry sandpiper hatchling ventures from her nest for the first time to dig for food by the shoreline. The problem is, the food is buried in the sand where scary waves roll up.",
+    Poster: "https://m.media-amazon.com/images/M/MV5BNDU1ZTYwNmYtNjM1Zi00NTlkLWI5ZmQtNjM2OWM0ZTMxYTFlXkEyXkFqcGc@._V1_SX300.jpg",
+    Metascore: null,
+    imdbRating: 8.3
+  },
+  tt4772188: {
+    imdbID: "tt4772188",
+    Title: "Flow",
+    Released: "2025-02-14",
+    Runtime: 85,
+    Genres: ["Animation", "Adventure", "Family"],
+    Directors: ["Gints Zilbalodis"],
+    Writers: ["Gints Zilbalodis", "Matiss Kaza", "Ron Dyens"],
+    Actors: ["Gints Zilbalodis", "Thomas Oldman", "Alexander David Bobson"],
+    Plot: "Cat is a solitary animal, but as its home is devastated by a great flood, he finds refuge on a boat populated by various species, and will have to team up with them despite their differences.",
+    Poster: "https://m.media-amazon.com/images/M/MV5BOTM5ODBlOTAtYjcwZi00YzkzLWIzODEtMTM2MTZlNDFmMWU2XkEyXkFqcGc@._V1_SX300.jpg",
+    Metascore: 87,
+    imdbRating: 7.9
+  },
+  tt0137523: {
+    imdbID: "tt0137523",
+    Title: "Fight Club",
+    Released: "1999-10-15",
+    Runtime: 139,
+    Genres: ["Crime", "Drama", "Thriller"],
+    Directors: ["David Fincher"],
+    Writers: ["Chuck Palahniuk", "Jim Uhls"],
+    Actors: ["Brad Pitt", "Edward Norton", "Meat Loaf"],
+    Plot: "An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into much more.",
+    Poster: "https://m.media-amazon.com/images/M/MV5BOTgyOGQ1NDItNGU3Ny00MjU3LTg2YWEtNmEyYjBiMjI1Y2M5XkEyXkFqcGc@._V1_SX300.jpg",
+    Metascore: 67,
+    imdbRating: 8.8
+  },
+  tt1588170: {
+    imdbID: "tt1588170",
+    Title: "I Saw the Devil",
+    Released: "2010-08-12",
+    Runtime: 144,
+    Genres: ["Action", "Thriller"],
+    Directors: ["Kim Jee-woon"],
+    Writers: ["Park Hoon-jung", "Kim Jee-woon"],
+    Actors: ["Lee Byung-hun", "Choi Min-sik", "Jeon Gook-hwan"],
+    Plot: "A secret agent exacts revenge on a serial killer through a series of captures and releases.",
+    Poster: "https://m.media-amazon.com/images/M/MV5BM2Q1ZGZiNTYtMWNjOC00NmU2LTg1MDQtZGZkNmY0Y2RlOTBmXkEyXkFqcGc@._V1_SX300.jpg",
+    Metascore: 67,
+    imdbRating: 7.8
+  },
+  tt0364385: {
+    imdbID: "tt0364385",
+    Title: "Ju-on: The Grudge",
+    Released: "2003-01-25",
+    Runtime: 92,
+    Genres: ["Horror"],
+    Directors: ["Takashi Shimizu"],
+    Writers: ["Takashi Shimizu"],
+    Actors: ["Megumi Okina", "Misaki Itô", "Misa Uehara"],
+    Plot: "A mysterious and vengeful spirit marks and pursues anybody who dares enter the house in which it resides.",
+    Poster: "https://m.media-amazon.com/images/M/MV5BOWE4NGE1NGYtMmRjNS00YjgyLTkxZmYtN2Y1OWY4MzcwMTgwXkEyXkFqcGc@._V1_SX300.jpg",
+    Metascore: 48,
+    imdbRating: 6.7
+  },
+  tt0118799: {
+    imdbID: "tt0118799",
+    Title: "La vita è bella",
+    Released: "1997-12-20",
+    Runtime: 116,
+    Genres: ["Comedy", "Drama", "Romance"],
+    Directors: ["Roberto Benigni"],
+    Writers: ["Vincenzo Cerami", "Roberto Benigni"],
+    Actors: ["Roberto Benigni", "Nicoletta Braschi", "Giorgio Cantarini"],
+    Plot: "When an open-minded Jewish waiter and his son become victims of the Holocaust, he uses a perfect mixture of will, humor and imagination to protect his son from the dangers around their camp.",
+    Poster: "https://m.media-amazon.com/images/M/MV5BZTBhOGYzZjQtYzE0Mi00MGIwLWE0MWYtNzMxNTM2OTFkM2NjXkEyXkFqcGc@._V1_SX300.jpg",
+    Metascore: 58,
+    imdbRating: 8.6
   }
 };

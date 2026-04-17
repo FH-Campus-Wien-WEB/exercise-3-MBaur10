@@ -39,7 +39,13 @@ nav {
 
 /* navigation buttons have full width */
 nav button {
-  width: 100%;
+  min-height: 44px;
+  padding: 1 24px;
+  font-size: 16px;
+  width: 90%;
+  min-width: 60;
+  margin: 0.25em;
+  box-shadow: 0 2px 6px #453144;
 }
 
 /* Remove unnecessary space and bullets from the lists */
@@ -76,6 +82,7 @@ body {
 
   nav {
     grid-area: n;
+    overflow-y: auto;
   }
 
   main {
@@ -93,46 +100,76 @@ body {
  */
  header {
   display: flex;
-
+  justify-content: center;
  }
 
 /* Task 3.2. Make the list items of the unordered list in the nav element a flex container, 
    use column direction and center the child items
  */
 
+ nav ul li {
+  display: flex;
+  justify-content: center;
+ }
+
 /* Task 3.3. Make the main element a Flexbox container */
-
-
-/* Task 3.4. Make the footer's ul a Flexbox container */
-
-
-/* From here on styling from exercise 1 */
-/*img {
-  border-radius: 12px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 200px;
-  border: 10px solid #8d72a5;
-  border-radius: 8px;
+main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5em;
+  padding: 1em;
+  box-sizing: border-box;
 }
 
-article {
-  border: 1px solid #453144;
-  border-radius: 12px;
-  box-shadow: 0 2px 6px;
-  padding: 1rem;
-  margin-bottom: 1.5rem;
-  background-color: #DBBBD8;
-}*/
+/* Task 3.4. Make the footer's ul a Flexbox container */
+footer {
+  padding: 0.25em 0.25em;
+  font-size: 0.875em;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-between; 
+  gap: 0.5em;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  flex-grow: 1;
+  text-align: center;
+  padding: 0.25em;
+}
+
+/* From here on styling from exercise 1 */
 
 article {
-  border: 1px solid #453144;
   border-radius: 12px;
-  box-shadow: 0 2px 6px;
-  padding: 1rem;
-  margin-bottom: 1.5rem;
+  box-shadow: 6px 6px 6px;
   background-color: #DBBBD8;
+  padding: 2em;
+}
+
+/*mobile*/
+@media (max-width: 50em) {
+  article {
+    flex-direction: column;
+  }
+}
+/*tablet*/
+@media (min-width: 50em) and (max-widht: 70em) {
+  article {
+    flex: 0 0 calc(50% - 0.75em);
+  }
+}
+
+@media (min-width: 70em) {
+  article{
+  flex: 0 0 calc(50% - 1em);
+  box-sizing: border-box;
+  padding: 2.5em;
+  margin: 0.5;
+  }
 }
 
 article img {
@@ -177,6 +214,8 @@ span {
 .genre {
   padding: 2px 8px;
   border: solid black 1px;
+  margin: 10em, 3em;
+  box-shadow: 0 2px 6px;
   border-radius: 6px;
   background-color: #8d72a5;
   font-weight: bold;
@@ -195,13 +234,19 @@ span {
 }
 
 button {
-  flex: 1;
-  padding: 0.875rem 2rem;
-  font-size: 1rem;
-  font-weight: 600;
-  border: none;
+  min-height: 44px;
+  padding: 0.25em 0.75em;
+  font-size: 16px;
+  min-width: 60;
+  margin: 0.5em;
+  box-shadow: 0 2px 6px #453144;
   border-radius: 8px;
   cursor: pointer;
   transition: all 0.2s ease;
   background-color: #B68BB3;
+}
+
+button:hover {
+  background-color: #eeb8e8;
+  transform: translateY(-2px);
 }
