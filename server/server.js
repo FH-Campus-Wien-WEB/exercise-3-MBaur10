@@ -32,7 +32,14 @@ app.get('/genres', (req, res) => {
    return only movies that have the given genre
  */
 app.get('/movies', function (req, res) {
-  let movies = Object.values(movieModel)
+  let movies = Object.values(movieModel);
+  if (req.query.genre) {
+    const targetGenre = req.query.genre.trim();
+    movies = movies.filter(movie=>
+      movie.Genres.includes(targetGenre)
+    );
+    console.log(targetGenre + " movies loaded");
+  }
   res.send(movies);
 })
 
@@ -66,4 +73,6 @@ app.put('/movies/:imdbID', function(req, res) {
 
 app.listen(3000)
 
-console.log("Server now listening on http://localhost:3000/")
+console.log("Server now listening on http://localhost:3000/");
+console.log("Movies loaded: ", Object.keys(movieModel));
+console.log("Total movies: ", Object.keys(movieModel).length);
