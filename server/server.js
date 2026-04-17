@@ -27,7 +27,7 @@ app.get('/genres', (req, res) => {
 })
 
 
-/* Task 1.4: Extend the GET /movies endpoint:
+/* Task 2.2: Extend the GET /movies endpoint:
    When a query parameter for a specific genre is given, 
    return only movies that have the given genre
  */
