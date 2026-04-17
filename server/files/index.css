@@ -1,12 +1,31 @@
 @import url(base.css);
 
 h1 {
+  border-radius: 10px;
+  padding-left: 12px;
+  padding-right: 12px;
+  font-family: 'Copperplate Gothic Light';
+  font-weight: 900;
   font-size: 200%;
+  color: #453144;
+  background-color: #8d72a5;
+  box-shadow: #453144 0 2px 6px;
   margin: 8px 0px;
 }
 
+header h1{
+  font-family: 'Copperplate Gothic Light';
+  font-weight: 1000;
+  font-size: 300%;
+  color: #5a1460;
+  margin: 8px 0px;
+  border: none;
+  box-shadow: none;
+ }
+
 /* Constrain the page to the viewport */
-html, body {
+html,
+body {
   height: 100vh;
   background-color: #8d72a5;
 }
@@ -32,11 +51,50 @@ ul {
 
 /* Task 2.1. Lay out the childs of the 'body' using Grid Template Areas. */
 
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  gap: 0.5em;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #8d72a5;
+}
+
+@media (min-width: 30em) {
+  body {
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+      "h h"
+      "n m"
+      "f f";
+  }
+
+  header {
+    grid-area: h;
+  }
+
+  nav {
+    grid-area: n;
+  }
+
+  main {
+    grid-area: m;
+    overflow-y: auto;
+  }
+
+  footer {
+    grid-area: f;
+  }
+}
 
 /* Task 3.1. Make the header element a flex container and center its children
    vertically and horizontally.
  */
+ header {
+  display: flex;
 
+ }
 
 /* Task 3.2. Make the list items of the unordered list in the nav element a flex container, 
    use column direction and center the child items
@@ -49,7 +107,7 @@ ul {
 
 
 /* From here on styling from exercise 1 */
-img {
+/*img {
   border-radius: 12px;
   display: block;
   margin-left: auto;
@@ -59,7 +117,7 @@ img {
   border-radius: 8px;
 }
 
-/*article {
+article {
   border: 1px solid #453144;
   border-radius: 12px;
   box-shadow: 0 2px 6px;
@@ -85,17 +143,15 @@ article img {
   border: 10px solid #8d72a5;
   border-radius: 8px;
 }
-h1 {
-  display: inline-block;
-  border-radius: 10px;
-  padding-left: 12px;
-  padding-right: 12px;
-  font-family: 'Copperplate Gothic Light';
-  font-weight: 900;
-  font-size: 2rem;
-  color: #453144;
-  background-color: #8d72a5;
-  box-shadow: #453144 0 2px 6px;
+
+article ul {
+  list-style: disc;
+  padding-left: 2em;
+  margin: 0.5em 0;
+}
+
+article ul li {
+  margin-bottom: 0.25m;
 }
 
 .plot {
